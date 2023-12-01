@@ -1,2 +1,3 @@
 # theunderground.blog
-A "website" that is only available in your feed reader
+
+A blog that is only available in your feed reader.
