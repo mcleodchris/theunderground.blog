@@ -45,7 +45,7 @@ const {
 const { getAllPosts } = require("./config/collections/index.js");
 
 // module import events
-const { svgToJpeg } = require("./config/events/index.js");
+const { svgToJpeg, deletePostsFolder } = require("./config/events/index.js");
 
 // plugins
 const markdownLib = require("./config/plugins/markdown.js");
@@ -112,6 +112,7 @@ module.exports = (eleventyConfig) => {
 
   // 	--------------------- Events ---------------------
   //   eleventyConfig.on("afterBuild", svgToJpeg);
+  eleventyConfig.on("afterBuild", deletePostsFolder);
 
   // 	--------------------- Plugins ---------------------
   eleventyConfig.addPlugin(EleventyRenderPlugin);
@@ -128,7 +129,6 @@ module.exports = (eleventyConfig) => {
   ["src/assets/fonts/", "src/assets/images/"].forEach((path) =>
     eleventyConfig.addPassthroughCopy(path)
   );
-
   // social icons to root directory
   eleventyConfig.addPassthroughCopy({
     "src/assets/images/favicon/*": "/",
