@@ -11,7 +11,7 @@ Honestly, I don't know how this is going to go, or how sustainable it will be. W
 
 But it's a fun experiment none-the-less, and I'm hoping to see it through to whatever end.
 
-True to form, I haven't planned for anything beyond the "can it be done" aspects of this. I still haven't figured out exactly _what_ I'm going to write about. I have a few ideas, but nothing firm. We'll just have to see how it goes. Things might be a little random for a while as I explore RSS as a medium and it's limitations. Reading that back sounds quite pretentious, but I'm sticking with it.
+True to form, I haven't planned for anything beyond the "can it be done" aspects of this. I still haven't figured out exactly _what_ I'm going to write about. I have a few ideas, but nothing firm. We'll just have to see how it goes. Things might be a little random for a while as I explore RSS[^1] as a medium and it's limitations. Reading that back sounds quite pretentious, but I'm sticking with it.
 
 ## Interesting Links and Goings On
 
@@ -62,3 +62,5 @@ Chris
 [cbr]: https://chrismcleod.dev/links/
 [masto]: https://mastodon.online/@mstrkapowski
 [mail]: mailto:feedback@theunderground.blog
+
+[^1]: _Technically_, it's Atom, but what's extremely similar feed specifications between friends?

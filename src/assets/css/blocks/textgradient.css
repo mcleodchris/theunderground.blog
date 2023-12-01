@@ -1,0 +1,7 @@
+.gradient-text {
+  color: transparent;
+  background: var(--sparkle, var(--color-bg));
+  padding: 0.6rem 0;
+  background-size: 50%;
+  background-clip: text;
+}

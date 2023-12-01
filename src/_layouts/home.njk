@@ -1,0 +1,32 @@
+<html lang="en-gb">
+    <head>
+        <!-- charset / viewport -->
+        <meta charset="utf-8">
+        <meta
+        name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- title / description -->
+        <title>{{ meta.title }}</title>
+        <meta name="description" content="{{ meta.description }}">
+        <link rel="alternate" hreflang="en" href="/feed.xml"/>
+        <link rel="author" href="humans.txt"/>
+        {% if meta.author.mastodon %}
+        <!-- Mastodon verified site -->
+        <link rel="me" href="{{ meta.author.mastodon }}"/>
+        {% endif %}
+        <link rel="stylesheet" href="/assets/css/global.css?{{ assetHash }}"/>
+        <!-- preloads -->
+        <link rel="preload" href="/assets/fonts/inter/inter-v7-latin-500.woff2" as="font" type="font/woff2" crossorigin />
+        <link rel="preload" href="/assets/fonts/inter/inter-v7-latin-700.woff2" as="font" type="font/woff2" crossorigin />
+        <link rel="preload" href="/assets/fonts/redhat/red-hat-display-v7-latin-900.woff2" as="font" type="font/woff2" crossorigin />
+    </head>
+    <body>
+        <!-- header -->
+        {% include "header.njk" %}
+        <!-- content -->
+        <main id="main" class="flow">
+            {{ content | safe }}
+        </main>
+        <!-- footer -->
+        {% include "footer.njk" %}
+    </body>
+</html>

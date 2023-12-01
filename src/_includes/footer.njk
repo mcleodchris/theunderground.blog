@@ -1,0 +1,19 @@
+<footer class="site-foot section">
+    <div class="wrapper">
+        <div class="site-foot__inner">
+        <nav id="footernav" class="site-foot__inner text-step-0" aria-label="Footer">
+            &copy; {% year %}
+            <a href="{{ meta.author.site | url }}">{{ meta.author.name }}</a>        
+            <small>{% packageVersion %}</small>
+        </nav>
+        <nav id="social" class="site-foot__inner">
+            <a href="/feed.xml" rel="alternate" type="application/rss+xml">
+                <span class="sr-only">RSS Feed</span>
+                <div aria-hidden="true">{% include 'icons/social-rss.svg' %}</div>
+            </a>
+            {% set lastUpdate = collections.posts | getNewestCollectionItemDate %}
+            <small>Last updated: <time datetime="{{lastUpdate | toIsoString }}">{{ lastUpdate | formatDate("MMM D, YYYY h:mm A") }}</time></small>
+        </nav>
+      </div>
+    </div>
+</footer>

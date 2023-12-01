@@ -1,0 +1,66 @@
+{
+  "title": "Colors",
+  "description": "Hex color codes that can be shared, cross-platform. They can be converted at point of usage, such as HSL for web or CMYK for print.",
+  "items": [
+    {
+      "name": "Dark",
+      "value": "#2B2926"
+    },
+    {
+      "name": "Light",
+      "value": "#F4F7F5"
+    },
+    {
+      "name": "Light Glare",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "Primary",
+      "value": "#DE2110"
+    },
+    {
+      "name": "Primary Glare",
+      "value": "#E43A72"
+    },
+    {
+      "name": "Secondary",
+      "value": "#0009AB"
+    },
+    {
+      "name": "Secondary Glare",
+      "value": "#1D4E89"
+    },
+    {
+      "name": "Inverse Light",
+      "value": "#2B2926"
+    },
+    {
+      "name": "Inverse Dark",
+      "value": "#181920"
+    },
+    {
+      "name": "Inverse Dark Glare",
+      "value": "#272934"
+    },
+    {
+      "name": "Inverse Light Glare",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "Inverse Primary",
+      "value": "#3bb0a5"
+    },
+    {
+      "name": "Inverse Primary Glare",
+      "value": "#54fcec"
+    },
+    {
+      "name": "Inverse Secondary",
+      "value": "#6021e0"
+    },
+    {
+      "name": "Inverse Secondary Glare",
+      "value": "#8a25ff"
+    }
+  ]
+}
