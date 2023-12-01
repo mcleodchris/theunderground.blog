@@ -35,7 +35,7 @@ Ryan Swanstrom has been conducting interviews with a wide variety of people in t
 
 ### Show Me Yours (Your Blogroll, That Is…)
 
-Blogrolls are great, so [Frank invites us to share them][invite]. Here's [Frank's blogroll][fbr]. Here's [Tracy's blogroll][tbr] along with [a post about building community through blogrolls][community]. Here's [m blogroll][cbr], along with all the other RSS subscriptions I have. What about yours?
+Blogrolls are great, so [Frank invites us to share them][invite]. Here's [Frank's blogroll][fbr]. Here's [Tracy's blogroll][tbr] along with [a post about building community through blogrolls][community]. Here's [my blogroll][cbr], along with all the other RSS subscriptions I have. What about yours?
 
 ## Signing Off
 
