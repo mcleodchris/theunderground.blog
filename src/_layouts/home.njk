@@ -2,12 +2,11 @@
     <head>
         <!-- charset / viewport -->
         <meta charset="utf-8">
-        <meta
-        name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- title / description -->
         <title>{{ meta.title }}</title>
         <meta name="description" content="{{ meta.description }}">
-        <link rel="alternate" hreflang="en" href="/feed.xml"/>
+        <link rel="alternate" hreflang="en" type="application/rss+xml" href="/feed.xml"/>
         <link rel="author" href="humans.txt"/>
         {% if meta.author.mastodon %}
         <!-- Mastodon verified site -->
