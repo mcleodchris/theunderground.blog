@@ -112,7 +112,7 @@ module.exports = (eleventyConfig) => {
 
   // 	--------------------- Events ---------------------
   //   eleventyConfig.on("afterBuild", svgToJpeg);
-  eleventyConfig.on("afterBuild", deletePostsFolder);
+  // eleventyConfig.on("afterBuild", deletePostsFolder);
 
   // 	--------------------- Plugins ---------------------
   eleventyConfig.addPlugin(EleventyRenderPlugin);
