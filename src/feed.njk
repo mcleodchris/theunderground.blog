@@ -21,7 +21,7 @@ excludeFromSitemap: true
     <entry>
       <title>{{ post.data.title }}</title>
       <updated>{{ post.date | dateToRfc3339 }}</updated>
-      <id>{{ post.date + post.page.inputPath | sha256 }}</id>
+      <id>{{ post.page.inputPath | sha256 }}</id>
       <content xml:lang="{{ locale }}" type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
     </entry>
   {%- endfor %}
