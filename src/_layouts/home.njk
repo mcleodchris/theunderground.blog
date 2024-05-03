@@ -12,8 +12,9 @@
         {% if meta.author.mastodon %}
         <!-- Mastodon verified site -->
         <link rel="me" href="{{ meta.author.mastodon }}"/>
-        <link rel="me authn" href="mailto:feedback@theunderground.blog" />
         {% endif %}
+        <link rel="me authn" href="mailto:feedback@theunderground.blog" />
+        <link rel="webmention" href="https://webmention.io/theunderground.blog/webmention" />
         <link rel="stylesheet" href="/assets/css/global.css?{{ assetHash }}"/>
         <!-- preloads -->
         <link rel="preload" href="/assets/fonts/inter/inter-v7-latin-500.woff2" as="font" type="font/woff2" crossorigin />
