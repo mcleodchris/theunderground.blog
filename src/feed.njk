@@ -4,7 +4,6 @@ eleventyExcludeFromCollections: true
 excludeFromSitemap: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<!-- I'm sorry about using a non-spec compliant ID on the entries, but there are no URLs for blog posts to set it to. -->
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="{{ meta.url }}/">
   <title>{{ meta.title | safe }}</title>
   <subtitle>{{ meta.description | safe }}</subtitle>
@@ -21,7 +20,7 @@ excludeFromSitemap: true
     <entry>
       <title>{{ post.data.title }}</title>
       <updated>{{ post.date | dateToRfc3339 }}</updated>
-      <id>{{ post.page.inputPath | sha256 }}</id>
+      <id>urn:uuid:{{ post.page.inputPath | sha256 }}</id>
       <content xml:lang="{{ locale }}" type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
     </entry>
   {%- endfor %}
