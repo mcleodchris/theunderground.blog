@@ -7,8 +7,8 @@ excludeFromSitemap: true
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="{{ meta.url }}/">
   <title>{{ meta.title | safe }}</title>
   <subtitle>{{ meta.description | safe }}</subtitle>
-  <link xml:base="{{ meta.url }}/feed.xml" href="." rel="self"/>
-  <link xml:base="{{ meta.url }}/" href="/"/> {% set postslist = collections.posts %}
+  <link xml:base="{{ meta.url }}/feed-uuid.xml" href="." rel="self"/>
+  <link href="{{ meta.url }}/" /> {% set postslist = collections.posts %}
   <updated>{{ postslist | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
   <id>{{ meta.url }}/</id>
   <author>
