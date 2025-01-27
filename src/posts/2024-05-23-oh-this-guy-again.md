@@ -4,6 +4,7 @@ date: 2024-05-23T21:50Z
 tags:
   - blogging
   - internet
+id: 5fe8cea8-fdb3-476d-a2ac-4b2bae615d41
 ---
 
 Hello Internet Friends, I hope you are happy and well wherever you are right now. Fun fact that I learned last week: this blog has approximately 5x the feed subscribers on [Inoreader](https://www.inoreader.com/) as my [regular blog](https://chrismcleod.dev/). I can't say what it's like on other platforms, and it doesn't really mean anything, but I thought it was interesting - and another reminder that the Internet loves a gimmick. 🙂

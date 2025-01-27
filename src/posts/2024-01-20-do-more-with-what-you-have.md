@@ -4,6 +4,7 @@ date: 2024-01-20T12:39Z
 tags:
   - blogging
   - websites
+id: 6787332c-6c7b-4f09-a908-2cdd0ebc49ee
 ---
 
 Hello again, everyone. It's been a minute! I've spent the last few weeks trying to come up with what I wanted to write in this post - originally I wanted to post on the 1st January, to properly kick off the New Year. [I managed that for my regular blog](https://chrismcleod.dev/blog/new-year-old-posts/), but not here; I struggled to come up with a suitable theme to structure the post around, which led to several drafts discarded as "aimless". But then it hit me: themes!

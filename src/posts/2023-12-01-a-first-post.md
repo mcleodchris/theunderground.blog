@@ -1,6 +1,7 @@
 ---
 title: A First Post
 date: 2023-12-01T15:00Z
+id: 5ecc34f4-77b4-4efa-94b7-cda20d49e5cf
 ---
 
 ## An Introduction
